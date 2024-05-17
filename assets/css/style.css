@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background: #17202b;
   background-size: cover;
   left: 0;
   right: 0;
@@ -303,7 +303,7 @@ svg {
   left: 0;
   top: 0;
   right: 0;
-  background: #09203a;
+  background: #1a313c;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -368,25 +368,40 @@ section .container {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 24px; 
   font-weight: 500;
   padding: 0;
-  line-height: 1px;
+  line-height: 1.2; 
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #dee2e6;
+  color: #aaa5a5; 
   font-family: "Poppins", sans-serif;
+  position: relative;
+  text-align: left;
+  animation: fadeIn 4s ease-in-out;
+   ;
 }
 
-.section-title h2::after {
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* .section-title h2::after {
   content: "";
   width: 120px;
   height: 1px;
-  display: inline-block;
-  background: #dee2e6;
-  margin: 4px 10px;
-}
+  display: block;
+  background: #333; 
+  margin: 10px auto 0;
+} */
 
 .section-title p {
   margin: 0;
@@ -509,7 +524,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #09203a;
+  background: #1a313c;
   transition: ease-in-out 0.3s;
 }
 
@@ -530,7 +545,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: #042b56eb;
+  background: #234251;
 }
 
 /*--------------------------------------------------------------
@@ -682,7 +697,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: #09203a;
+  background: #1a313c;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px;
@@ -737,7 +752,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #042e5f;
+  background: #234251;
   border-color: #12d640;
 }
 
@@ -921,7 +936,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: #09203a;
+  background: #1a313c;
 }
 
 .contact .info-box i.bx {
@@ -976,7 +991,7 @@ section .container {
 
 .contact .php-email-form {
   padding: 30px;
-  background: #09203a;
+  background: #1a313c;
 }
 
 .contact .php-email-form .validate {
@@ -1148,4 +1163,18 @@ section .container {
   border-radius: 5px;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+
+
+/* .highlight { */
+  /* background-color: #1a313c; Highlight color, adjust as needed */
+  /* padding: 2px 4px; */
+  /* border-radius: 3px; Optional: adds rounded corners */
+  /* font-size: 1.5em; Adjust the size as needed */
+/* } */
+
+.highlight {
+  font-size: 1.5em; /* Adjust the size as needed */
+  font-weight: bold; /* Makes the font bold */
 }

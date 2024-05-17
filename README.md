@@ -1,7 +1,9 @@
-# Aka-Gulu.github.io
+# Aka-gulu.github.io
 
-My portfolio website built using HTML, CSS, and JavaScript. You can check it out [here](https://Aka-Gulu.github.io).
-This website is modified based on [arasgungore.github.io](https://arasgungore.github.io) 
+I built my portfolio based on the excellent work by Aras Gungore. You can see my portfolio [here](https://aka-gulu.github.io).
+
+Special thanks to [Aras Gungore](https://github.com/arasgungore/arasgungore.github.io) for the inspiration and groundwork. Kudos to Aras!
+
 
 
 
@@ -10,6 +12,3 @@ This website is modified based on [arasgungore.github.io](https://arasgungore.gi
 <p float="center">
     <img src="https://github.com/Aka-Gulu/Aka-Gulu.github.io/blob/main/Screenshots/Screenshot.png" width="800">
 </p>
-
-
-
