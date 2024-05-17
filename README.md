@@ -1,8 +1,8 @@
-# Aka-Gulu.github.io
+# Aka-gulu.github.io
 
-My portfolio website built using HTML, CSS, and JavaScript. You can check it out [here](https://Aka-Gulu.github.io).
+My portfolio website is [here](https://aka-gulu.github.io).
 
-This website is modified based on [arasgungore.github.io](https://arasgungore.github.io) 
+This website is modified based on [arasgungore.github.io](https://arasgungore.github.io) 's template, thank you!
 
 
 
