@@ -523,9 +523,11 @@ section .container {
 .interests .icon-box {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   background: #1a313c;
   transition: ease-in-out 0.3s;
+  border-radius: 30px; /* Adjust the value as needed */
+  margin: 10px 0; 
 }
 
 
