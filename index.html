@@ -1129,7 +1129,7 @@
       // Set the interval for the next image change
       clearInterval(interval);
       if (currentIndex === 0) {
-        interval = setInterval(showNextImage, 10000); // First image for 6 seconds
+        interval = setInterval(showNextImage, 6000); // First image for 6 seconds
       } else {
         interval = setInterval(showNextImage, 3000); // Rest for 3 seconds
       }
@@ -1138,7 +1138,7 @@
     // Initially set the first image to be displayed by adding the 'active' class
     images[currentIndex].classList.add('active');
     // Set an interval to call showNextImage every 6000 milliseconds (6 seconds) for the first image
-    let interval = setInterval(showNextImage, 10000);
+    let interval = setInterval(showNextImage, 6000);
   });
 </script>
 
